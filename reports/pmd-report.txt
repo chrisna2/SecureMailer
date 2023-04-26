@@ -1,0 +1,400 @@
+src/com/securecoding/securemailer/App.java:11:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/com/securecoding/securemailer/App.java:11:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/com/securecoding/securemailer/App.java:11:	CommentRequired:	CommentRequired: Class comments are required
+src/com/securecoding/securemailer/App.java:11:	CommentRequired:	CommentRequired: Class comments are required
+src/com/securecoding/securemailer/App.java:11:	ShortClassName:	ShortClassName: Avoid short class names like App
+src/com/securecoding/securemailer/App.java:11:	ShortClassName:	ShortClassName: Avoid short class names like App
+src/com/securecoding/securemailer/App.java:12:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/App.java:12:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/App.java:12:	MutableStaticState:	MutableStaticState: Do not use non-final non-private static fields
+src/com/securecoding/securemailer/App.java:12:	MutableStaticState:	MutableStaticState: Do not use non-final non-private static fields
+src/com/securecoding/securemailer/App.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'stage' is not assigned and could be declared final
+src/com/securecoding/securemailer/App.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'stage' is not assigned and could be declared final
+src/com/securecoding/securemailer/App.java:16:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/com/securecoding/securemailer/App.java:16:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/com/securecoding/securemailer/App.java:16:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'root' could be declared final
+src/com/securecoding/securemailer/App.java:16:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'root' could be declared final
+src/com/securecoding/securemailer/App.java:19:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/com/securecoding/securemailer/App.java:19:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/com/securecoding/securemailer/App.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/App.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/App.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/com/securecoding/securemailer/App.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/com/securecoding/securemailer/controller/MainController.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.google.gson.Gson'
+src/com/securecoding/securemailer/controller/MainController.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.google.gson.Gson'
+src/com/securecoding/securemailer/controller/MainController.java:3:	UnusedImports:	UnusedImports: Unused import 'com.google.gson.Gson'
+src/com/securecoding/securemailer/controller/MainController.java:3:	UnusedImports:	UnusedImports: Unused import 'com.google.gson.Gson'
+src/com/securecoding/securemailer/controller/MainController.java:4:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.google.gson.reflect.TypeToken'
+src/com/securecoding/securemailer/controller/MainController.java:4:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.google.gson.reflect.TypeToken'
+src/com/securecoding/securemailer/controller/MainController.java:4:	UnusedImports:	UnusedImports: Unused import 'com.google.gson.reflect.TypeToken'
+src/com/securecoding/securemailer/controller/MainController.java:4:	UnusedImports:	UnusedImports: Unused import 'com.google.gson.reflect.TypeToken'
+src/com/securecoding/securemailer/controller/MainController.java:9:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.securecoding.securemailer.model.Receiver'
+src/com/securecoding/securemailer/controller/MainController.java:9:	UnnecessaryImport:	UnnecessaryImport: Unused import 'com.securecoding.securemailer.model.Receiver'
+src/com/securecoding/securemailer/controller/MainController.java:9:	UnusedImports:	UnusedImports: Unused import 'com.securecoding.securemailer.model.Receiver'
+src/com/securecoding/securemailer/controller/MainController.java:9:	UnusedImports:	UnusedImports: Unused import 'com.securecoding.securemailer.model.Receiver'
+src/com/securecoding/securemailer/controller/MainController.java:21:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.List'
+src/com/securecoding/securemailer/controller/MainController.java:21:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.List'
+src/com/securecoding/securemailer/controller/MainController.java:21:	UnusedImports:	UnusedImports: Unused import 'java.util.List'
+src/com/securecoding/securemailer/controller/MainController.java:21:	UnusedImports:	UnusedImports: Unused import 'java.util.List'
+src/com/securecoding/securemailer/controller/MainController.java:24:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/com/securecoding/securemailer/controller/MainController.java:24:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/com/securecoding/securemailer/controller/MainController.java:24:	CommentRequired:	CommentRequired: Class comments are required
+src/com/securecoding/securemailer/controller/MainController.java:24:	CommentRequired:	CommentRequired: Class comments are required
+src/com/securecoding/securemailer/controller/MainController.java:24:	TooManyFields:	TooManyFields: Too many fields
+src/com/securecoding/securemailer/controller/MainController.java:24:	TooManyFields:	TooManyFields: Too many fields
+src/com/securecoding/securemailer/controller/MainController.java:27:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:27:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:27:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:27:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:27:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:27:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/com/securecoding/securemailer/controller/MainController.java:27:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/com/securecoding/securemailer/controller/MainController.java:29:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:29:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:29:	LongVariable:	LongVariable: Avoid excessively long variable names like fieldSenderPassword
+src/com/securecoding/securemailer/controller/MainController.java:29:	LongVariable:	LongVariable: Avoid excessively long variable names like fieldSenderPassword
+src/com/securecoding/securemailer/controller/MainController.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:32:	LongVariable:	LongVariable: Avoid excessively long variable names like comboRecevicesFormatType
+src/com/securecoding/securemailer/controller/MainController.java:32:	LongVariable:	LongVariable: Avoid excessively long variable names like comboRecevicesFormatType
+src/com/securecoding/securemailer/controller/MainController.java:34:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:34:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:37:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:37:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:37:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:37:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:39:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:39:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:39:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:39:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:42:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:42:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:42:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:42:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:45:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:45:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:45:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:45:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:47:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:47:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:47:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:47:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:50:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:50:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:50:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:50:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:52:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:52:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:52:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:52:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:54:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:54:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:54:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:54:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:56:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:56:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:56:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:56:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:56:	SingularField:	SingularField: Perhaps 'htmlTemplate' could be replaced by a local variable.
+src/com/securecoding/securemailer/controller/MainController.java:56:	SingularField:	SingularField: Perhaps 'htmlTemplate' could be replaced by a local variable.
+src/com/securecoding/securemailer/controller/MainController.java:58:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:58:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:58:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:58:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:58:	FieldNamingConventions:	FieldNamingConventions: The field name 'default_img_path' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/securecoding/securemailer/controller/MainController.java:58:	FieldNamingConventions:	FieldNamingConventions: The field name 'default_img_path' doesn't match '[a-z][a-zA-Z0-9]*'
+src/com/securecoding/securemailer/controller/MainController.java:58:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'default_img_path' is not final.
+src/com/securecoding/securemailer/controller/MainController.java:58:	VariableNamingConventions:	VariableNamingConventions: Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'default_img_path' is not final.
+src/com/securecoding/securemailer/controller/MainController.java:63:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:63:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:63:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:63:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:63:	LongVariable:	LongVariable: Avoid excessively long variable names like stackSendingContainer
+src/com/securecoding/securemailer/controller/MainController.java:63:	LongVariable:	LongVariable: Avoid excessively long variable names like stackSendingContainer
+src/com/securecoding/securemailer/controller/MainController.java:66:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:66:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:66:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:66:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:66:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:66:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:66:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:66:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:66:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:66:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:66:	LongVariable:	LongVariable: Avoid excessively long variable names like lblNumberOfReceivers
+src/com/securecoding/securemailer/controller/MainController.java:66:	LongVariable:	LongVariable: Avoid excessively long variable names like lblNumberOfReceivers
+src/com/securecoding/securemailer/controller/MainController.java:66:	LongVariable:	LongVariable: Avoid excessively long variable names like lblNumberOfSuccess
+src/com/securecoding/securemailer/controller/MainController.java:66:	LongVariable:	LongVariable: Avoid excessively long variable names like lblNumberOfSuccess
+src/com/securecoding/securemailer/controller/MainController.java:66:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/com/securecoding/securemailer/controller/MainController.java:66:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/com/securecoding/securemailer/controller/MainController.java:69:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:69:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:69:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:69:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:72:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:72:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/controller/MainController.java:72:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:72:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/controller/MainController.java:77:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'location' is not assigned and could be declared final
+src/com/securecoding/securemailer/controller/MainController.java:77:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'location' is not assigned and could be declared final
+src/com/securecoding/securemailer/controller/MainController.java:77:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'resources' is not assigned and could be declared final
+src/com/securecoding/securemailer/controller/MainController.java:77:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'resources' is not assigned and could be declared final
+src/com/securecoding/securemailer/controller/MainController.java:80:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'imgChooserExtension' could be declared final
+src/com/securecoding/securemailer/controller/MainController.java:80:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'imgChooserExtension' could be declared final
+src/com/securecoding/securemailer/controller/MainController.java:80:	LongVariable:	LongVariable: Avoid excessively long variable names like imgChooserExtension
+src/com/securecoding/securemailer/controller/MainController.java:80:	LongVariable:	LongVariable: Avoid excessively long variable names like imgChooserExtension
+src/com/securecoding/securemailer/controller/MainController.java:81:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/com/securecoding/securemailer/controller/MainController.java:81:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/com/securecoding/securemailer/controller/MainController.java:82:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/com/securecoding/securemailer/controller/MainController.java:82:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/com/securecoding/securemailer/controller/MainController.java:82:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/com/securecoding/securemailer/controller/MainController.java:82:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/com/securecoding/securemailer/controller/MainController.java:86:	UnusedPrivateMethod:	UnusedPrivateMethod: Avoid unused private methods such as 'onLoadHeaderImage()'.
+src/com/securecoding/securemailer/controller/MainController.java:86:	UnusedPrivateMethod:	UnusedPrivateMethod: Avoid unused private methods such as 'onLoadHeaderImage()'.
+src/com/securecoding/securemailer/controller/MainController.java:88:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/com/securecoding/securemailer/controller/MainController.java:88:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/com/securecoding/securemailer/controller/MainController.java:89:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/com/securecoding/securemailer/controller/MainController.java:89:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/com/securecoding/securemailer/controller/MainController.java:93:	UnusedPrivateMethod:	UnusedPrivateMethod: Avoid unused private methods such as 'onPreview()'.
+src/com/securecoding/securemailer/controller/MainController.java:93:	UnusedPrivateMethod:	UnusedPrivateMethod: Avoid unused private methods such as 'onPreview()'.
+src/com/securecoding/securemailer/controller/MainController.java:100:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/com/securecoding/securemailer/controller/MainController.java:100:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/com/securecoding/securemailer/controller/MainController.java:104:	UnusedPrivateMethod:	UnusedPrivateMethod: Avoid unused private methods such as 'onSend()'.
+src/com/securecoding/securemailer/controller/MainController.java:104:	UnusedPrivateMethod:	UnusedPrivateMethod: Avoid unused private methods such as 'onSend()'.
+src/com/securecoding/securemailer/controller/MainController.java:105:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'templateBuilder' (lines '105'-'149').
+src/com/securecoding/securemailer/controller/MainController.java:105:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'templateBuilder' (lines '105'-'149').
+src/com/securecoding/securemailer/controller/MainController.java:105:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'templateBuilder' could be declared final
+src/com/securecoding/securemailer/controller/MainController.java:105:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'templateBuilder' could be declared final
+src/com/securecoding/securemailer/controller/MainController.java:109:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'emailEngine' (lines '109'-'149').
+src/com/securecoding/securemailer/controller/MainController.java:109:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'emailEngine' (lines '109'-'149').
+src/com/securecoding/securemailer/controller/MainController.java:109:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'emailEngine' could be declared final
+src/com/securecoding/securemailer/controller/MainController.java:109:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'emailEngine' could be declared final
+src/com/securecoding/securemailer/controller/MainController.java:110:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/com/securecoding/securemailer/controller/MainController.java:110:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/com/securecoding/securemailer/controller/MainController.java:114:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/com/securecoding/securemailer/controller/MainController.java:114:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/com/securecoding/securemailer/controller/MainController.java:114:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/com/securecoding/securemailer/controller/MainController.java:114:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/com/securecoding/securemailer/controller/MainController.java:114:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'receivers' could be declared final
+src/com/securecoding/securemailer/controller/MainController.java:114:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'receivers' could be declared final
+src/com/securecoding/securemailer/controller/MainController.java:117:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'numberOfReceivers' could be declared final
+src/com/securecoding/securemailer/controller/MainController.java:117:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'numberOfReceivers' could be declared final
+src/com/securecoding/securemailer/controller/MainController.java:120:	DoNotUseThreads:	DoNotUseThreads: To be compliant to J2EE, a webapp should not use any thread.
+src/com/securecoding/securemailer/controller/MainController.java:120:	DoNotUseThreads:	DoNotUseThreads: To be compliant to J2EE, a webapp should not use any thread.
+src/com/securecoding/securemailer/controller/MainController.java:122:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'numberOfSent' (lines '122'-'133').
+src/com/securecoding/securemailer/controller/MainController.java:122:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'numberOfSent' (lines '122'-'133').
+src/com/securecoding/securemailer/controller/MainController.java:122:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'numberOfSent' (lines '122'-'149').
+src/com/securecoding/securemailer/controller/MainController.java:122:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'numberOfSent' (lines '122'-'149').
+src/com/securecoding/securemailer/controller/MainController.java:123:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'receiver' could be declared final
+src/com/securecoding/securemailer/controller/MainController.java:123:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'receiver' could be declared final
+src/com/securecoding/securemailer/controller/MainController.java:132:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'isSent' could be declared final
+src/com/securecoding/securemailer/controller/MainController.java:132:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'isSent' could be declared final
+src/com/securecoding/securemailer/controller/MainController.java:135:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/com/securecoding/securemailer/controller/MainController.java:135:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/com/securecoding/securemailer/controller/MainController.java:138:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/com/securecoding/securemailer/controller/MainController.java:138:	SystemPrintln:	SystemPrintln: System.out.println is used
+src/com/securecoding/securemailer/controller/MainController.java:163:	UnusedPrivateMethod:	UnusedPrivateMethod: Avoid unused private methods such as 'onDone()'.
+src/com/securecoding/securemailer/controller/MainController.java:163:	UnusedPrivateMethod:	UnusedPrivateMethod: Avoid unused private methods such as 'onDone()'.
+src/com/securecoding/securemailer/engine/EmailEngine.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javafx.application.Platform'
+src/com/securecoding/securemailer/engine/EmailEngine.java:3:	UnnecessaryImport:	UnnecessaryImport: Unused import 'javafx.application.Platform'
+src/com/securecoding/securemailer/engine/EmailEngine.java:3:	UnusedImports:	UnusedImports: Unused import 'javafx.application.Platform'
+src/com/securecoding/securemailer/engine/EmailEngine.java:3:	UnusedImports:	UnusedImports: Unused import 'javafx.application.Platform'
+src/com/securecoding/securemailer/engine/EmailEngine.java:14:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.concurrent.Semaphore'
+src/com/securecoding/securemailer/engine/EmailEngine.java:14:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.concurrent.Semaphore'
+src/com/securecoding/securemailer/engine/EmailEngine.java:14:	UnusedImports:	UnusedImports: Unused import 'java.util.concurrent.Semaphore'
+src/com/securecoding/securemailer/engine/EmailEngine.java:14:	UnusedImports:	UnusedImports: Unused import 'java.util.concurrent.Semaphore'
+src/com/securecoding/securemailer/engine/EmailEngine.java:16:	CommentRequired:	CommentRequired: Class comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:16:	CommentRequired:	CommentRequired: Class comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:17:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/engine/EmailEngine.java:17:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/engine/EmailEngine.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:17:	ImmutableField:	ImmutableField: Private field 'props' could be made final; it is only initialized in the declaration or constructor.
+src/com/securecoding/securemailer/engine/EmailEngine.java:17:	ImmutableField:	ImmutableField: Private field 'props' could be made final; it is only initialized in the declaration or constructor.
+src/com/securecoding/securemailer/engine/EmailEngine.java:18:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/engine/EmailEngine.java:18:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/engine/EmailEngine.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:18:	SingularField:	SingularField: Perhaps 'session' could be replaced by a local variable.
+src/com/securecoding/securemailer/engine/EmailEngine.java:18:	SingularField:	SingularField: Perhaps 'session' could be replaced by a local variable.
+src/com/securecoding/securemailer/engine/EmailEngine.java:19:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/engine/EmailEngine.java:19:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/engine/EmailEngine.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:21:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/engine/EmailEngine.java:21:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/engine/EmailEngine.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:21:	ImmutableField:	ImmutableField: Private field 'multipart' could be made final; it is only initialized in the declaration or constructor.
+src/com/securecoding/securemailer/engine/EmailEngine.java:21:	ImmutableField:	ImmutableField: Private field 'multipart' could be made final; it is only initialized in the declaration or constructor.
+src/com/securecoding/securemailer/engine/EmailEngine.java:22:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/engine/EmailEngine.java:22:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/engine/EmailEngine.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:37:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:37:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:37:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The setter 'setAuth' should not return any type except void linguistically
+src/com/securecoding/securemailer/engine/EmailEngine.java:37:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The setter 'setAuth' should not return any type except void linguistically
+src/com/securecoding/securemailer/engine/EmailEngine.java:37:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/EmailEngine.java:37:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/EmailEngine.java:37:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/EmailEngine.java:37:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/EmailEngine.java:39:	UnnecessaryFullyQualifiedName:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'javax.mail.Authenticator' due to existing import 'javax.mail.*'
+src/com/securecoding/securemailer/engine/EmailEngine.java:39:	UnnecessaryFullyQualifiedName:	UnnecessaryFullyQualifiedName: Unnecessary use of fully qualified name 'javax.mail.Authenticator' due to existing import 'javax.mail.*'
+src/com/securecoding/securemailer/engine/EmailEngine.java:40:	CommentRequired:	CommentRequired: Protected method constructor comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:40:	CommentRequired:	CommentRequired: Protected method constructor comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:40:	MissingOverride:	MissingOverride: The method 'getPasswordAuthentication()' is missing an @Override annotation.
+src/com/securecoding/securemailer/engine/EmailEngine.java:40:	MissingOverride:	MissingOverride: The method 'getPasswordAuthentication()' is missing an @Override annotation.
+src/com/securecoding/securemailer/engine/EmailEngine.java:52:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/com/securecoding/securemailer/engine/EmailEngine.java:52:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/com/securecoding/securemailer/engine/EmailEngine.java:58:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:58:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:58:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The setter 'setSubject' should not return any type except void linguistically
+src/com/securecoding/securemailer/engine/EmailEngine.java:58:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The setter 'setSubject' should not return any type except void linguistically
+src/com/securecoding/securemailer/engine/EmailEngine.java:58:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'subject' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/EmailEngine.java:58:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'subject' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/EmailEngine.java:65:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/com/securecoding/securemailer/engine/EmailEngine.java:65:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/com/securecoding/securemailer/engine/EmailEngine.java:71:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:71:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:71:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The setter 'setContent' should not return any type except void linguistically
+src/com/securecoding/securemailer/engine/EmailEngine.java:71:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The setter 'setContent' should not return any type except void linguistically
+src/com/securecoding/securemailer/engine/EmailEngine.java:71:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'htmlContent' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/EmailEngine.java:71:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'htmlContent' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/EmailEngine.java:79:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/com/securecoding/securemailer/engine/EmailEngine.java:79:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/com/securecoding/securemailer/engine/EmailEngine.java:85:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:85:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:85:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The setter 'setHeaderImage' should not return any type except void linguistically
+src/com/securecoding/securemailer/engine/EmailEngine.java:85:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The setter 'setHeaderImage' should not return any type except void linguistically
+src/com/securecoding/securemailer/engine/EmailEngine.java:85:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'path' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/EmailEngine.java:85:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'path' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/EmailEngine.java:88:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fds' could be declared final
+src/com/securecoding/securemailer/engine/EmailEngine.java:88:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fds' could be declared final
+src/com/securecoding/securemailer/engine/EmailEngine.java:97:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/com/securecoding/securemailer/engine/EmailEngine.java:97:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/com/securecoding/securemailer/engine/EmailEngine.java:103:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:103:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/engine/EmailEngine.java:103:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'recipient' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/EmailEngine.java:103:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'recipient' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/EmailEngine.java:113:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/com/securecoding/securemailer/engine/EmailEngine.java:113:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/com/securecoding/securemailer/engine/EmailEngine.java:114:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/securecoding/securemailer/engine/EmailEngine.java:114:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/securecoding/securemailer/engine/MarkdownParser.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/com/securecoding/securemailer/engine/MarkdownParser.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/com/securecoding/securemailer/engine/MarkdownParser.java:6:	UseUtilityClass:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/securecoding/securemailer/engine/MarkdownParser.java:6:	UseUtilityClass:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/securecoding/securemailer/engine/MarkdownParser.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/engine/MarkdownParser.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/engine/MarkdownParser.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/engine/MarkdownParser.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/engine/MarkdownParser.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/engine/MarkdownParser.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/engine/MarkdownParser.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'content' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/MarkdownParser.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'content' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/MarkdownParser.java:16:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/com/securecoding/securemailer/engine/MarkdownParser.java:16:	IfStmtsMustUseBraces:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/com/securecoding/securemailer/engine/MarkdownParser.java:17:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/com/securecoding/securemailer/engine/MarkdownParser.java:17:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/com/securecoding/securemailer/engine/MarkdownParser.java:17:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/com/securecoding/securemailer/engine/MarkdownParser.java:17:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:5:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:5:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:5:	CommentRequired:	CommentRequired: Class comments are required
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:5:	CommentRequired:	CommentRequired: Class comments are required
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:6:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:6:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:6:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:6:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:6:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:6:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:6:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:6:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:6:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:6:	OneDeclarationPerLine:	OneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:8:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:8:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:8:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The setter 'setHeader' should not return any type except void linguistically
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:8:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The setter 'setHeader' should not return any type except void linguistically
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:8:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'imagePath' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:8:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'imagePath' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:8:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'title' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:8:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'title' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:16:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The setter 'setBody' should not return any type except void linguistically
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:16:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The setter 'setBody' should not return any type except void linguistically
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'content' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'content' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:26:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:26:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:26:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The setter 'setFooter' should not return any type except void linguistically
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:26:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The setter 'setFooter' should not return any type except void linguistically
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:26:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'leftContent' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:26:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'leftContent' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:26:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'rightContent' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:26:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'rightContent' is not assigned and could be declared final
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:34:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/engine/TemplateBuilder.java:34:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/model/Receiver.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/com/securecoding/securemailer/model/Receiver.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/com/securecoding/securemailer/model/Receiver.java:3:	DataClass:	DataClass: The class 'Receiver' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=4, WMC=6)
+src/com/securecoding/securemailer/model/Receiver.java:3:	DataClass:	DataClass: The class 'Receiver' is suspected to be a Data Class (WOC=16.667%, NOPA=0, NOAM=4, WMC=6)
+src/com/securecoding/securemailer/model/Receiver.java:4:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/model/Receiver.java:4:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/model/Receiver.java:5:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/model/Receiver.java:5:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/model/Receiver.java:7:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/model/Receiver.java:7:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/model/Receiver.java:7:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+src/com/securecoding/securemailer/model/Receiver.java:7:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+src/com/securecoding/securemailer/model/Receiver.java:7:	UnnecessaryConstructor:	UnnecessaryConstructor: Avoid unnecessary constructors - the compiler will generate these for you
+src/com/securecoding/securemailer/model/Receiver.java:7:	UnnecessaryConstructor:	UnnecessaryConstructor: Avoid unnecessary constructors - the compiler will generate these for you
+src/com/securecoding/securemailer/model/Receiver.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/com/securecoding/securemailer/model/Receiver.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/com/securecoding/securemailer/model/Receiver.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/com/securecoding/securemailer/model/Receiver.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/com/securecoding/securemailer/util/Constants.java:5:	CommentRequired:	CommentRequired: Class comments are required
+src/com/securecoding/securemailer/util/Constants.java:5:	CommentRequired:	CommentRequired: Class comments are required
+src/com/securecoding/securemailer/util/Constants.java:6:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/util/Constants.java:6:	CommentRequired:	CommentRequired: Field comments are required
+src/com/securecoding/securemailer/util/Constants.java:6:	LongVariable:	LongVariable: Avoid excessively long variable names like HTML_TEMPLATE_LOCATION
+src/com/securecoding/securemailer/util/Constants.java:6:	LongVariable:	LongVariable: Avoid excessively long variable names like HTML_TEMPLATE_LOCATION
+src/com/securecoding/securemailer/util/Tools.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/com/securecoding/securemailer/util/Tools.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/com/securecoding/securemailer/util/Tools.java:6:	UseUtilityClass:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/securecoding/securemailer/util/Tools.java:6:	UseUtilityClass:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/securecoding/securemailer/util/Tools.java:8:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/util/Tools.java:8:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/util/Tools.java:8:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'filename' is not assigned and could be declared final
+src/com/securecoding/securemailer/util/Tools.java:8:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'filename' is not assigned and could be declared final
+src/com/securecoding/securemailer/util/Tools.java:10:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/com/securecoding/securemailer/util/Tools.java:10:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'file' could be declared final
+src/com/securecoding/securemailer/util/Tools.java:12:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fileContents' could be declared final
+src/com/securecoding/securemailer/util/Tools.java:12:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fileContents' could be declared final
+src/com/securecoding/securemailer/util/Tools.java:18:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/com/securecoding/securemailer/util/Tools.java:18:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/com/securecoding/securemailer/util/Tools.java:20:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/securecoding/securemailer/util/Tools.java:20:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/com/securecoding/securemailer/util/Tools.java:21:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/com/securecoding/securemailer/util/Tools.java:21:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/com/securecoding/securemailer/util/Tools.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/util/Tools.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/com/securecoding/securemailer/util/Tools.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'replace' is not assigned and could be declared final
+src/com/securecoding/securemailer/util/Tools.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'replace' is not assigned and could be declared final
+src/com/securecoding/securemailer/util/Tools.java:28:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/com/securecoding/securemailer/util/Tools.java:28:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/com/securecoding/securemailer/util/Tools.java:28:	ForLoopCanBeForeach:	ForLoopCanBeForeach: This for loop can be replaced by a foreach loop
+src/com/securecoding/securemailer/util/Tools.java:28:	ForLoopCanBeForeach:	ForLoopCanBeForeach: This for loop can be replaced by a foreach loop
+src/com/securecoding/securemailer/util/Tools.java:28:	ForLoopsMustUseBraces:	ForLoopsMustUseBraces: Avoid using for statements without curly braces
+src/com/securecoding/securemailer/util/Tools.java:28:	ForLoopsMustUseBraces:	ForLoopsMustUseBraces: Avoid using for statements without curly braces
+src/com/securecoding/securemailer/util/Tools.java:29:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'input'
+src/com/securecoding/securemailer/util/Tools.java:29:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'input'
