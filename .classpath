@@ -13,5 +13,10 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/javax.mail"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jfoenix"/>
 	<classpathentry kind="lib" path="C:/SecureCoding_Expert/lib/commons-io-2.11.0/commons-io-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/SecureCoding_Expert/lib/commons-email-1.5/commons-email-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/SecureCoding_Expert/lib/commons-email-1.5/commons-email-1.5-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/SecureCoding_Expert/lib/commons-email-1.5/commons-email-1.5-sources.jar"/>
+	<classpathentry kind="lib" path="C:/SecureCoding_Expert/lib/commons-email-1.5/commons-email-1.5-tests.jar"/>
+	<classpathentry kind="lib" path="C:/SecureCoding_Expert/lib/commons-email-1.5/commons-email-1.5-test-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,26 +1,32 @@
 package com.securecoding.securemailer.engine;
 
-import javafx.application.Platform;
+import java.util.Properties;
 
 import javax.activation.DataHandler;
 import javax.activation.DataSource;
 import javax.activation.FileDataSource;
-import javax.mail.*;
+import javax.mail.Authenticator;
+import javax.mail.BodyPart;
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
+import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
-import java.util.Properties;
-import java.util.concurrent.Semaphore;
+
+import org.apache.commons.mail.HtmlEmail;
 
 public class EmailEngine {
+	//취약점 3 : 전역으로 선언된 상수이 초기화가 안되어있음 
     private Properties props;
     private Session session;
     private Message message;
-
     private MimeMultipart multipart;
     private BodyPart messageBodyPart;
-
+    
     public EmailEngine() {
         props = new Properties();
         props.put("mail.smtp.auth", "true");
@@ -31,12 +37,14 @@ public class EmailEngine {
         // This mail has 2 part, the BODY and the embedded image
         multipart = new MimeMultipart("related");
         
-
+        //취약점 3 솔루션 : 생성자에 전역으로 선언된 상수가 초기화
+        message = null;
+        
     }
 
     public EmailEngine setAuth(String email, String password) {
         session = Session.getInstance(props,
-                new javax.mail.Authenticator() {
+                new Authenticator() {
                     protected PasswordAuthentication getPasswordAuthentication() {
                         return new PasswordAuthentication(email, password);
                     }
@@ -56,15 +64,22 @@ public class EmailEngine {
     }
 
     public EmailEngine setSubject(String subject) {
-        // Set Subject: header field
-        try {
-			
-				message.setSubject(subject);
-			
-        } catch (MessagingException e) {
-            e.printStackTrace();
-        }
-
+    	// 취약점 검증 2 : null 체크 누락
+    	/*
+    	if(subject != null) {
+	        // Set Subject: header field
+	        try {
+				
+	        	//취약점 4 : 이메일 html 방식의 값 설정
+	        	//message.setSubject(subject);
+				//신규 라이브러리 사용
+	        } catch (MessagingException e) {
+	            e.printStackTrace();
+	        }
+    	}
+    	*/
+    	HtmlEmail email = new HtmlEmail();
+    	email.setSubject(subject);
         return this;
     }
 
@@ -111,7 +126,13 @@ public class EmailEngine {
             // Send message
             Transport.send(message);
            return true;
-        } catch (Exception e) {
+        } 
+        catch (MessagingException me) {
+        	//취약점 1 솔루션- 메세지 관련 에러는 메세지 에러를 통해 범위 좁힘
+        	return false;
+        }
+        catch (Exception e) {
+        	//취약점 1 - 모든 예외에 대해 모두 처리하는 것
             return false;
         }
     }
